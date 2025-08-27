@@ -50,7 +50,7 @@ namespace FortuneTeller31
             }
             else
             {
-                form = new FormHistory();
+                form = new FormHistory(this);
                 form.Show();
             }                
         }
