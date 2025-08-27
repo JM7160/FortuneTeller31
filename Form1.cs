@@ -12,6 +12,8 @@ namespace FortuneTeller31
 {
     public partial class Form1 : Form
     {
+        List<string> results;
+
         public Form1()
         {
             InitializeComponent();
