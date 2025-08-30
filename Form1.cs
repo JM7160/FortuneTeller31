@@ -100,7 +100,7 @@ namespace FortuneTeller31
             catch (Exception ex) {
                 MessageBox.Show($"알 수 없는 오류가 발생했습니다.\n{ex.Message}", "알 수 없는 오류");
             }
-        }
+        } 
 
         internal void LoadHistory(string history)
         {
